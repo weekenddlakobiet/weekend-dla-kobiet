@@ -414,7 +414,7 @@ p.title-page {
   align-items: center;
   justify-content: stretch;
   width: 100%;
-  max-width: 28rem;
+  max-width: 60ch;
   padding: 4rem 2rem 2rem;
   text-align: center;
   background-color: var(--button-bg);
