@@ -970,6 +970,11 @@ p.title-page {
     width: 100%;
   }
 
+  .offer-item {
+    width: 100%;
+    padding: 0;
+  }
+
   .offer-item-wide,
   .offer-item-gallery {
     grid-column: span 1;
