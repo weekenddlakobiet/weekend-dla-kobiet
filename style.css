@@ -695,7 +695,6 @@ p.title-page {
   line-height: 1.6;
   color: var(--bg-color-light);
   text-align: justify;
-  text-justify: inter-word;
   hyphens: auto;
   hyphenate-limit-chars: 6 3 2;
 }
@@ -916,7 +915,7 @@ p.title-page {
   }
 
   p.offer-item-wide-description {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -981,7 +980,6 @@ p.title-page {
   }
 
   .offer-item-wide-description {
-    font-size: 1.125rem;
     text-align: justify;
   }
 }
