@@ -401,7 +401,7 @@ p.title-page {
 
 .team-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: clamp(2rem, 5vw, 5rem);
   place-items: stretch center;
   width: 100%;
@@ -454,7 +454,7 @@ p.title-page {
 
 .offer-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: clamp(2rem, 8vw, 8rem);
   place-items: stretch center;
   width: 100%;
@@ -820,10 +820,16 @@ p.title-page {
     gap: 1rem;
   }
 
+  .team-member-card {
+    width: min(100%, 60ch);
+  }
+
+  .offer-item {
+    width: min(100%, 36rem);
+  }
+
   .offer-item,
   .team-member-card {
-    width: 80%;
-    height: max-content;
     margin-bottom: 25vh;
   }
 
@@ -835,6 +841,7 @@ p.title-page {
   .offer-item-gallery {
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
   }
 
   .offer-item-wide > div {
@@ -966,7 +973,15 @@ p.title-page {
     padding: 1rem;
   }
 
+  .team-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    width: 100%;
+  }
+
   .offer-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
     width: 100%;
   }
 
