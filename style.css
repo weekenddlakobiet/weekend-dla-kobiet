@@ -401,13 +401,12 @@ p.title-page {
 
 .team-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(28rem, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
   gap: clamp(2rem, 5vw, 5rem);
   place-items: stretch center;
   width: 100%;
   max-width: 80rem;
   margin-top: 2rem;
-  container-type: inline-size;
 }
 
 .team-member-card {
@@ -455,12 +454,11 @@ p.title-page {
 
 .offer-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(36rem, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: clamp(2rem, 8vw, 8rem);
   place-items: stretch center;
   width: 100%;
   margin-top: 2rem;
-  container-type: inline-size;
 }
 
 .offer-item {
@@ -469,7 +467,8 @@ p.title-page {
   align-items: center;
   width: 100%;
   max-width: 36rem;
-  height: 80vh;
+  height: auto;
+  min-height: 60vh;
   padding: 2rem;
   border-radius: var(--border-radius-medium);
 }
