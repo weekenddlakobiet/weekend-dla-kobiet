@@ -538,13 +538,16 @@ p.title-page {
 }
 
 .offer-item-map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   max-width: 450px;
   height: 600px;
   overflow: hidden;
   border: none;
   border-radius: var(--border-radius-small);
-  box-shadow: var(--shadow-medium);
+  box-shadow: var(--shadow-light);
 }
 
 .offer-item-wide-description {
