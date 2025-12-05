@@ -415,7 +415,7 @@ p.title-page {
   align-items: center;
   justify-content: stretch;
   width: 100%;
-  max-width: 60ch;
+  max-width: 50ch;
   padding: 4rem 2rem 2rem;
   text-align: center;
   background-color: var(--button-bg);
@@ -828,7 +828,7 @@ p.title-page {
   }
 
   .team-member-card {
-    width: min(100%, 60ch);
+    width: min(100%, 50ch);
   }
 
   .offer-item {
